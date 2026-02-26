@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #fdf6ee;
+  --foreground: #3d2b1f;
+  --card: #fffaf5;
+  --card-foreground: #3d2b1f;
+  --popover: #fffaf5;
+  --popover-foreground: #3d2b1f;
+  --primary: #b22222;
+  --primary-foreground: #fffaf5;
+  --secondary: #f5e6d3;
+  --secondary-foreground: #5c3d2e;
+  --muted: #f0e0cc;
+  --muted-foreground: #7a5c4f;
+  --accent: #c9a84c;
+  --accent-foreground: #3d2b1f;
+  --destructive: #dc2626;
+  --destructive-foreground: #fef2f2;
+  --border: #e8d5bd;
+  --input: #e8d5bd;
+  --ring: #c9a84c;
+  --chart-1: #b22222;
+  --chart-2: #c9a84c;
+  --chart-3: #5c3d2e;
+  --chart-4: #8b6914;
+  --chart-5: #d4956a;
+  --radius: 0.75rem;
+  --sidebar: #fffaf5;
+  --sidebar-foreground: #3d2b1f;
+  --sidebar-primary: #b22222;
+  --sidebar-primary-foreground: #fffaf5;
+  --sidebar-accent: #f5e6d3;
+  --sidebar-accent-foreground: #5c3d2e;
+  --sidebar-border: #e8d5bd;
+  --sidebar-ring: #c9a84c;
+}
+
+@theme inline {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Noto Serif Devanagari', 'Playfair Display', serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-ayurveda-gold: #c9a84c;
+  --color-ayurveda-red: #b22222;
+  --color-ayurveda-brown: #5c3d2e;
+  --color-ayurveda-beige: #fdf6ee;
+  --color-ayurveda-cream: #f5e6d3;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mandala-bg {
+  background-image: radial-gradient(circle at 50% 50%, rgba(201, 168, 76, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(178, 34, 34, 0.02) 0%, transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(201, 168, 76, 0.02) 0%, transparent 40%);
+}
+
+.gold-border {
+  border-image: linear-gradient(135deg, #c9a84c, #e8d5bd, #c9a84c) 1;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.section-divider {
+  background: linear-gradient(90deg, transparent, #c9a84c, transparent);
+  height: 1px;
+}
