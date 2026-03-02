@@ -32,7 +32,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
-              Mon - Sun: 10:00 AM - 2:00 PM | 4:00 PM - 9:00 PM
+              Mon - Sat: 10:00 AM - 2:00 PM | 4:00 PM - 9:00 PM
             </span>
             <span className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
@@ -66,7 +66,7 @@ export default function Navbar() {
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-Q0NNHl801Phha0FVU81HCKxRUwT7zW.png"
                 alt="Shreenidhi Ayurved Logo"
-                className="h-12 lg:h-16 w-auto"
+                className="h-10 lg:h-12 w-auto"
               />
               <div className="hidden sm:block">
                 <h1 className="font-serif text-primary text-lg lg:text-xl font-bold leading-tight">

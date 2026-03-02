@@ -87,7 +87,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground text-sm">Timings</h4>
-                  <p className="text-muted-foreground text-sm">Monday to Sunday</p>
+                  <p className="text-muted-foreground text-sm">Monday to Saturday</p>
                   <p className="text-muted-foreground text-sm">Morning: 10:00 AM - 2:00 PM</p>
                   <p className="text-muted-foreground text-sm">Evening: 4:00 PM - 9:00 PM</p>
                 </div>

@@ -68,7 +68,7 @@ export default function HeroSection() {
                 <span className="w-2 h-2 bg-green-500 rounded-full" />
                 Open Today
               </span>
-              <span>Mon - Sun</span>
+              <span>Mon - Sat</span>
               <span>10 AM - 2 PM | 4 PM - 9 PM</span>
             </div>
           </motion.div>
@@ -78,14 +78,14 @@ export default function HeroSection() {
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex-1 max-w-md lg:max-w-lg"
+            className="flex-1 max-w-sm lg:max-w-md"
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-ayurveda-gold/10 rounded-full blur-3xl" />
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-24%20at%2015.17.55-9mZzU7L2Ue9N5fdBfEaroA00hWutnB.jpeg"
                 alt="Heal from the Root - Ayurveda treats the root cause, not just the symptoms. Meditation and chakra healing illustration"
-                className="relative w-full rounded-3xl shadow-2xl animate-float"
+                className="relative w-full max-h-[400px] object-cover rounded-3xl shadow-2xl animate-float"
               />
             </div>
           </motion.div>

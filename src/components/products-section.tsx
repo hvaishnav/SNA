@@ -66,7 +66,7 @@ export default function ProductsSection() {
               transition={{ duration: 0.6, delay: 0.2 + i * 0.15 }}
               className="bg-background rounded-3xl shadow-lg border border-border/50 overflow-hidden group hover:shadow-xl transition-shadow"
             >
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-[4/3] max-h-[220px] overflow-hidden">
                 <img
                   src={product.image}
                   alt={`${product.title} - ${product.description}`}

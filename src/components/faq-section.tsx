@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "What are the clinic timings and how can I book an appointment?",
-    a: "We are open Monday to Sunday. Morning: 10:00 AM - 2:00 PM, Evening: 4:00 PM - 9:00 PM. You can book an appointment by calling +91 89624-14401 or +91 87702-25974, or through our contact form.",
+    a: "We are open Monday to Saturday. Morning: 10:00 AM - 2:00 PM, Evening: 4:00 PM - 9:00 PM. You can book an appointment by calling +91 89624-14401 or +91 87702-25974, or through our contact form.",
   },
 ]
 

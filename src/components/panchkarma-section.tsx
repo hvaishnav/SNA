@@ -47,23 +47,23 @@ export default function PanchkarmaSection() {
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="flex-1 max-w-md"
+            className="flex-1 max-w-sm"
           >
             <div className="grid grid-cols-2 gap-4">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-24%20at%2015.17.52%20%281%29-lYiEGweiJReqj6bQmKa24WHNu1i7yi.jpeg"
                 alt="Shirodhara therapy - warm oil stream on forehead for deep relaxation and mental clarity"
-                className="w-full rounded-2xl shadow-lg col-span-2"
+                className="w-full max-h-[250px] object-cover rounded-2xl shadow-lg col-span-2"
               />
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-24%20at%2015.17.53-CxygihPYH27gKkXAhyA9W5Sv5DNbkT.jpeg"
                 alt="Netra Tarpan - Ayurvedic eye care therapy for calm eyes and clear vision"
-                className="w-full rounded-2xl shadow-lg"
+                className="w-full max-h-[180px] object-cover rounded-2xl shadow-lg"
               />
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-24%20at%2015.17.53%20%281%29-IfCpY60wARZQrTB2T6I3zAXeeWtldg.jpeg"
                 alt="Saundarya Chikitsa - Ayurvedic beauty therapy treatments"
-                className="w-full rounded-2xl shadow-lg"
+                className="w-full max-h-[180px] object-cover rounded-2xl shadow-lg"
               />
             </div>
           </motion.div>

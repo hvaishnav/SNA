@@ -78,7 +78,7 @@ export default function GallerySection() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={isInView ? { opacity: 1, scale: 1 } : {}}
                     transition={{ duration: 0.6, delay: 0.1 + i * 0.1 }}
-                    className="relative group/item overflow-hidden rounded-3xl shadow-lg h-[400px] sm:h-[500px]"
+                    className="relative group/item overflow-hidden rounded-3xl shadow-lg h-[280px] sm:h-[350px]"
                   >
                     <img
                       src={img.src}

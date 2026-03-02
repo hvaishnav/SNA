@@ -54,12 +54,12 @@ export default function AboutSection() {
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="flex-1 max-w-md"
+            className="flex-1 max-w-sm"
           >
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-24%20at%2015.17.55%20%281%29-ebuJK8X4LUchelCPyyufuGyWVU28vQ.jpeg"
               alt="Ayurvedic daily cycle showing Vata, Pitta, and Kapha time periods for optimal health"
-              className="w-full rounded-3xl shadow-xl"
+              className="w-full max-h-[350px] object-cover rounded-3xl shadow-xl"
             />
           </motion.div>
 

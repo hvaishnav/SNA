@@ -39,7 +39,7 @@ export default function Footer() {
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-Q0NNHl801Phha0FVU81HCKxRUwT7zW.png"
                 alt="Shreenidhi Ayurved Logo"
-                className="h-14 w-auto rounded-lg bg-primary-foreground/10 p-1"
+                className="h-10 w-auto rounded-lg bg-primary-foreground/10 p-1"
               />
               <div>
                 <h3 className="font-serif font-bold text-lg text-primary-foreground">Shreenidhi Ayurved</h3>
