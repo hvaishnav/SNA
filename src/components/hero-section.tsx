@@ -68,7 +68,7 @@ export default function HeroSection() {
                 <span className="w-2 h-2 bg-green-500 rounded-full" />
                 Open Today
               </span>
-              <span>Mon - Sun</span>
+              <span>Mon - Sat</span>
               <span>10 AM - 2 PM | 4 PM - 9 PM</span>
             </div>
           </motion.div>

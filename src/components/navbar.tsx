@@ -32,7 +32,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
-              Mon - Sun: 10:00 AM - 2:00 PM | 4:00 PM - 9:00 PM
+              Mon - Sat: 10:00 AM - 2:00 PM | 4:00 PM - 9:00 PM
             </span>
             <span className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
