@@ -120,7 +120,13 @@ export default function Navbar() {
                   <a
                     key={link.href}
                     href={link.href}
-                    onClick={() => setIsOpen(false)}
+                    onClick={(e) => {
+                                    // 1. Prevent the immediate close if it's interfering
+                                    // 2. We manually trigger the close AFTER a tiny delay
+                                    setTimeout(() => {
+                                      setIsOpen(false);
+                                    }, 1000); 
+                                  }}
                     className="px-4 py-3 text-foreground hover:text-primary hover:bg-secondary rounded-xl transition-colors font-medium"
                   >
                     {link.label}
